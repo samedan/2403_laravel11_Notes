@@ -13,3 +13,8 @@
 ## NodeFactory fake data
 
 > php artisan make:factory NoteFactory --model=Note
+
+## Laravel Breeze - Login/Signup
+
+> composer require laravel/breeze --dev
+> php artisan breeze:install

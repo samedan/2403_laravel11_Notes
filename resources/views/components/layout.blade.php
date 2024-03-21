@@ -11,7 +11,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         
     </head>
-    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
+    <body class="font-sans antialiased">
         {{-- message coming from NoteController --}}
         @session('message')
             <div class="success-message">{{ session('message')  }}</div> 
